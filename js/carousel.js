@@ -4,7 +4,7 @@ $(document).ready(function(){
         margin:0,
         responsiveClass:true,
         autoplay: true,
-        autoplayTimeout:4000,
+        autoplayTimeout:3500,
         autoplayHoverPause:true,
         center: true,
         navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
