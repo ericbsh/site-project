@@ -1,0 +1,200 @@
+@media screen and (max-width:767px){
+    .contract_box{
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .contract{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: -18%;
+        z-index: -1;
+        margin: auto;
+    }
+    .contract img{
+        display: block;
+        width: 120%;
+    /* width: 680px; */
+        height: 550px;
+        
+    }
+    .section{
+        width: 70%;
+        margin: auto;
+    }
+    .section h1{
+        text-align: center;
+        padding: 20px 0px 20px 0px;
+        font-size: 28px;
+    }
+    .section p{
+        font-size: 4px;
+        /* line-height: 20px; */
+    }
+    .section h5{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .name{
+        text-align: end;
+        margin-top: 10px;
+    }
+    
+    
+    .btn{
+        width: 90%;
+        /* width: 800px; */
+        margin: auto;
+        text-align: center;
+    }
+    .btn .reserve{
+        margin: 0px 10px;
+        border-radius: 10px;
+        background-color: #1d65c1;
+        box-shadow: 3px 3px 5px 0px #333;
+        /* padding: 10px; */
+        position: relative;
+        animation: float 1s infinite alternate-reverse;
+    }
+    .btn .reserve:hover{
+        background-color: #eee;
+    }
+    .btn .reserve a:hover{
+        color: #1d65c1;
+    }
+    .btn .reserve a{
+        color: white;
+        text-decoration: none;
+    }
+    .btn .reserve h5{
+        padding: 5px;
+    }
+    
+    
+    .btn .sign{
+        margin: 0px 10px;
+        border-radius: 10px;
+        background-color: #8e0f8e;
+        box-shadow: 3px 3px 5px 0px #333;
+        /* padding: 10px; */
+        position: relative;
+        animation: float 1s infinite alternate-reverse;
+    }
+    .btn .sign:hover{
+        background-color: #eee;
+    }
+    .btn .sign a:hover{
+        color: #8e0f8e;
+    }
+    .btn .sign a{
+        color: white;
+        text-decoration: none;
+    }
+    .btn .sign h5{
+        padding: 5px;
+    }
+    
+
+
+
+}
+
+
+
+@media screen and (min-width:768px){
+/* body{
+    background: url("pic/about_purple2222.png");
+} */
+.contract{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    /* background: url('pic/ipad_background.png'); */
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: center; */
+    position: absolute;
+    top: 0;
+    left: -4%;
+    z-index: -1;
+}
+.contract img{
+width: 680px;
+height: 600px;
+}
+.section{
+    width: 400px;
+    /* height: 800px; */
+    margin: auto;
+}
+.section h1{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+.section p{
+    font-size: 4px;
+    line-height: 20px;
+}
+.section h5{
+    padding-bottom: 10px;
+}
+.name{
+    text-align: end;
+    margin-top: 10px;
+}
+
+
+.btn{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+.btn .reserve{
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: #1d65c1;
+    box-shadow: 3px 3px 5px 0px #333;
+    /* padding: 10px; */
+    position: relative;
+    animation: float 1s infinite alternate-reverse;
+}
+.btn .reserve:hover{
+    background-color: #eee;
+}
+.btn .reserve a:hover{
+    color: #1d65c1;
+}
+.btn .reserve a{
+    color: white;
+    text-decoration: none;
+}
+.btn .reserve h5{
+    padding: 5px;
+}
+
+
+.btn .sign{
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: #8e0f8e;
+    box-shadow: 3px 3px 5px 0px #333;
+    /* padding: 10px; */
+    position: relative;
+    animation: float 1s infinite alternate-reverse;
+}
+.btn .sign:hover{
+    background-color: #eee;
+}
+.btn .sign a:hover{
+    color: #8e0f8e;
+}
+.btn .sign a{
+    color: white;
+    text-decoration: none;
+}
+.btn .sign h5{
+    padding: 5px;
+}
+
+}

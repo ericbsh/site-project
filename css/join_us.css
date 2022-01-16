@@ -1,0 +1,407 @@
+@media screen and (max-width:767px){
+    .title{
+        /* width: 1100px; */
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        padding: 0px 20px 0px 20px;
+        box-sizing: border-box;
+    }
+    .title h1{
+        margin-bottom: 20px;
+        font-size: 32px;
+    }
+    .title p{
+        /* font-size: 20px; */
+        font-family:Arial,sans-serif;
+        line-height: 20px;
+    }
+
+    .development_background{
+        background-color: #eee;
+        padding-top: 30px;
+        padding-bottom: 100px;
+        margin-top: 80px;
+    }
+    .job{
+        /* width: 1100px; */
+        width: 100%;
+        margin: auto;
+        padding-bottom: 0px;
+        padding: 0px 0px 50px 20px;
+        box-sizing: border-box;
+    }
+    .job h1{
+        font-size: 32px;
+    }
+    .wrap{
+        /* width: 1100px; */
+        width: 100%;
+        margin: auto;
+        /* display: flex; */
+        /* margin-top:150px; */
+        /* margin-bottom: 150px; */
+    }
+    .wrap .item{
+        width: 350px;
+        display: flex;
+        /* margin: auto; */
+        padding: 0px 0px 50px 20px;
+    }
+    .item .icon img{
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .item .content{
+        line-height: 20px;
+        padding: 10px 20px 0px 0px;
+    }
+    .item .content h1{
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+    .item .content p{
+        color: #666;
+        font-family:Arial,sans-serif;
+    }
+
+    .banner{
+        width: 100%;
+        height: 380px;
+        margin: auto;
+        background-image: url(../pic/join_us_banner.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .banner_content{
+        width: 100%;
+        margin: auto;
+        padding: 100px 20px 0px 0px;
+        box-sizing: border-box;
+    }
+    .banner_content h1{
+        font-size: 32px;
+        /* font-family: 'Iceberg', cursive; */
+        /* font-weight: bold; */
+        /* margin-bottom: 30px; */
+        position: absolute;
+        top: 10px;
+        left: 5%;
+    }
+    .banner_content p{
+        width: 300px;
+        line-height: 20px;
+        font-family:Arial,sans-serif;
+        /* font-weight: bold; */
+        padding: 20px 20px 0px 20px;
+        color: white;
+        text-shadow: 2px 2px 2px #333;
+    }
+    .banner_content a{
+        text-decoration: none;
+        color: white;
+    }
+    .banner_content button{
+        display: block;
+        margin-left: 20px;
+        margin-top: 50px;
+        background-color: royalblue;
+        font-size: 16px;
+        font-family: 'Iceberg', cursive;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 2px 2px 2px 0px #666;
+        position: relative;
+        animation: apply 2s infinite alternate-reverse;
+    }
+    @keyframes apply{
+        0%{ top:0; }
+        100%{ top:10px;}
+    }
+    .member{
+        width: 100%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 100px;
+        /* padding-left: 20px; */
+    }
+    .member h1{
+        padding-bottom: 80px;
+        font-size: 28px;
+        padding-left: 20px;
+
+    }
+    .member .figcaption{
+        width: 90%;
+        /* width: 400px; */
+        margin: auto;
+    }
+    .member .figure{
+        display: block;
+        width: 100%;
+        /* width: 335px; */
+        /* height: 550px; */
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 2px #999;
+        position: relative;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+    }
+    .member .figure img{
+        width: 100%;
+        border-radius: 10px 10px 0px 0px / 10px 10px 10px ;
+    }
+    .member .figure h1{
+        font-size: 20px;
+        font-family: 'Iceberg', cursive;
+        font-weight: bold;
+        padding: 5px;
+    }
+    .member .figure h2{
+        font-size: 18px;
+        font-family: 'Iceberg', cursive;
+        padding: 5px 0px 5px 10px;
+    }
+    .member .figure P{
+        font-size: 14px;
+        font-family:Arial,sans-serif;
+        padding: 5px 0px 20px 10px;
+        line-height: 20px;
+        color: #666;
+        /* margin-bottom: 30px; */
+    }
+    .member .figure a{
+        text-decoration: none;
+        color: white;
+    }
+    .member .figure button{
+        /* text-decoration: none; */
+        font-size: 14px;
+        font-family: 'Iceberg', cursive;
+        padding: 5px;
+        background-color: royalblue;
+        box-shadow: 2px 2px 2px 0px #999;
+        border-radius: 5px;
+        margin-left: 10px;
+        margin-bottom: 12px;
+        position: relative;
+        animation: read 2s infinite alternate-reverse;
+    }
+    @keyframes read{
+        0%{ top:0; }
+        100%{ top:10px;}
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px){
+.path{
+    width: 1200px;
+    color: #999;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    /* padding-left: 80px; */
+    font-family: 'Iceberg', cursive;
+    box-sizing: border-box;
+}
+
+.title{
+    width: 1100px;
+    margin: auto;
+    margin-top: 50px;
+}
+.title h1{
+    margin-bottom: 20px;
+}
+.title p{
+    /* font-size: 20px; */
+    font-family:Arial,sans-serif;
+}
+
+.development_background{
+    background-color: #eee;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin-top: 80px;
+}
+.job{
+    width: 1100px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.wrap{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    /* margin-top:150px; */
+    /* margin-bottom: 150px; */
+    
+}
+.wrap .item{
+    width: 350px;
+    display: flex;
+    margin: auto;
+    margin-top: 0;
+}
+.item .icon img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.item .content{
+    line-height: 20px;
+    padding: 10px;
+}
+.item .content h1{
+    margin-bottom: 20px;
+}
+.item .content p{
+    color: #666;
+    font-family:Arial,sans-serif;
+    line-height: 22px;
+}
+
+.banner{
+    width: 100%;
+    height: 380px;
+    margin: auto;
+    background-image: url(../pic/join_us_banner.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.banner_content{
+    width: 1100px;
+    margin: auto;
+    padding-top: 80px;
+}
+.banner_content h1{
+    font-size: 36px;
+    font-family: 'Iceberg', cursive;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.banner_content p{
+    line-height: 20px;
+    padding-bottom: 80px;
+    font-family:Arial,sans-serif;
+    width: 400px;
+}
+.banner_content a{
+    text-decoration: none;
+    color: white;
+}
+.banner_content button{
+    background-color: royalblue;
+    font-size: 20px;
+    font-family: 'Iceberg', cursive;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 0px #666;
+    position: relative;
+    animation: apply 2s infinite alternate-reverse;
+}
+.banner_content button:hover{
+    background-color: white;
+
+}
+.banner_content button a:hover{
+    color: royalblue;
+}
+@keyframes apply{
+    0%{ top:0; }
+    100%{ top:10px;}
+}
+
+
+.member{
+    width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* display: flex; */
+    justify-content: space-around;
+    padding: 20px;
+}
+.member h1{
+    padding-bottom: 80px;
+}
+.member .figcaption{
+    display: flex;
+    justify-content: space-around;
+}
+.member .figure{
+    width: 400px;
+    height: 620px;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px #999;
+    position: relative;
+}
+.member .figure img{
+    width: 400px;
+    height: 380px;
+    border-radius: 10px 10px 0px 0px / 10px 10px 10px ;
+}
+.member .figure h1{
+    font-size: 24px;
+    font-family: 'Iceberg', cursive;
+    font-weight: bold;
+    padding: 10px;
+}
+.member .figure h2{
+    font-size: 20px;
+    font-family: 'Iceberg', cursive;
+    padding: 10px;
+}
+.member .figure P{
+    font-size: 14px;
+    font-family:Arial,sans-serif;
+    padding: 10px;
+    line-height: 20px;
+    color: #666;
+    /* margin-bottom: 30px; */
+}
+.member .figure a{
+    text-decoration: none;
+    color: white;
+}
+.member .figure button{
+    /* text-decoration: none; */
+    font-size: 18px;
+    font-family: 'Iceberg', cursive;
+    padding: 10px;
+    background-color: royalblue;
+    box-shadow: 2px 2px 2px 0px #999;
+    border-radius: 10px;
+    margin-left: 10px;
+    position: relative;
+    animation: read 2s infinite alternate-reverse;
+}
+.member .figure button:hover{
+    background-color: white;
+}
+.member .figure a:hover{
+    color: royalblue;
+}
+@keyframes read{
+    0%{ top:0; }
+    100%{ top:10px;}
+}
+}
