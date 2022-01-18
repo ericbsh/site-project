@@ -425,6 +425,8 @@ color: rgb(189, 39, 189);
     margin-bottom: 50px;
 }
 .banner img{
+    /* width: 0%; */
+    /* height: 500px; */
     width: 90%;
     vertical-align: bottom;
     border-radius: 30px;
