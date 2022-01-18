@@ -35,19 +35,25 @@ left: 0;
 .logo{
     display: flex;
 }
+.logo a{
+    text-decoration: none;
+}
 .logo img{
     width: 45px;
     height: 45px;
     margin-top: 5px;
 }
-.logo h1{
+/* .logo h1{
     padding: 10px 0px 0px 10px ;
-}
+    color: black;
+} */
 .company h1{
     padding: 0px 0px 0px 10px ;
+    color: black;
 }
 .company h6{
     padding: 0px 0px 0px 12px;
+    color: black;
 }
 .menu_btn{
     width: 50px;
@@ -181,6 +187,10 @@ transform: rotate(180deg);
     font-family: 'Iceberg', cursive;
     box-sizing: border-box;
 }
+.path a{
+    text-decoration: none;
+    color: #999;
+}
 
 .upfooter{
     background-color: #333;
@@ -311,9 +321,13 @@ transform: rotate(180deg);
     width: 1200px;
     margin: auto;
     justify-content: space-between;
+    position: relative;
 }
 .logo{
     display: flex;
+}
+.logo a{
+    text-decoration: none;
 }
 .logo img{
     width: 45px;
@@ -322,9 +336,11 @@ transform: rotate(180deg);
 }
 .company h1{
     padding: 0px 0px 0px 10px ;
+    color: black;
 }
 .company h6{
     padding: 0px 0px 0px 12px;
+    color: black;
 }
 .menu_btn{
     display: none;
@@ -400,7 +416,7 @@ transform: rotate(180deg);
     margin-left: 20px;
     position: absolute;
     top: 0;
-    right: 2.5%;
+    right: 0;
     filter: invert(1%) sepia(150%) saturate(5947%) hue-rotate(288deg) brightness(80%) contrast(112%);
 }
 .sign_in a:hover{
@@ -429,7 +445,7 @@ transform: rotate(180deg);
     height: 80vh;
     position: absolute;
     top: 53px;
-    right: 0;
+    right: -32px;
     background-color: #000;
     min-width: 250px;
     overflow: auto;
@@ -465,6 +481,14 @@ transform: rotate(180deg);
     /* padding-left: 80px; */
     font-family: 'Iceberg', cursive;
     box-sizing: border-box;
+}
+.path a{
+    text-decoration: none;
+    color: #999;
+}
+.path a:hover{
+    color: #CE00C9;
+    transition: 0.3s;
 }
 
 .upfooter{

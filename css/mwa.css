@@ -253,12 +253,12 @@
     color: white;
     text-shadow: 1px 1px 1px #666;
     position: absolute;
-    top: 76%;
+    top: 90%;
     left: 44%;
 }
 .mouse_scroll{
     position: absolute;
-    top: 70%;
+    top: 82%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -1457,10 +1457,9 @@ padding-bottom: 50px;
         box-sizing: border-box;
         /* display: none; */
     }
-    /* .designer i{
-        color: #666;
-        z-index: 1;
-    } */
+    .designer i{
+        cursor: pointer;
+    }
     .design_pics input[type="radio"]:nth-of-type(1):checked ~ .designer:nth-of-type(1){
         display: flex;
     }
